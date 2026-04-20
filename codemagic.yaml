@@ -35,7 +35,7 @@ workflows:
         script: |
           set -ex
 
-          echo $GCLOUD_KEY_FILE | base64 --decode > ./gcloud_key_file.json
+          echo $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS | base64 --decode > ./gcloud_key_file.json
 
           gcloud auth activate-service-account --key-file=gcloud_key_file.json
 
