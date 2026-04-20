@@ -7,7 +7,7 @@ workflows:
       groups:
         - google_credentials 
       vars:
-        FIREBASE_PROJECT: "flutter-integration-tests" # <-- Put your Firebase Project Name here
+        FIREBASE_PROJECT: "reactexplore-446710" # <-- Put your Firebase Project Name here
       flutter: stable
       xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
       cocoapods: default
